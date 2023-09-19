@@ -1,7 +1,3 @@
-
-# The original Dockerfile is missing some necessary steps.
-# I will add those steps to fix the Dockerfile.
-
 # Set the base image
 FROM python:3.9
 
@@ -21,4 +17,4 @@ COPY . .
 EXPOSE 8080
 
 # Set the command to run the main.py file using Python
-CMD ["python", "main.py"]
+CMD ["python", "app.py"]
